@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Casalucca - Modern home & lifestyle brand offering elegant tableware, kitchen sets, linens, and home décor">
+    <title>Casalucca - Home & Lifestyle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="logo">CASALUCCA</a>
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#products" class="nav-link">Shop</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <button class="icon-btn search-btn" aria-label="Search">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                        <button class="icon-btn cart-btn" aria-label="Shopping Cart">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 2L7 6H2l2 12h16l2-12h-5L15 2H9z"></path>
+                            </svg>
+                            <span class="cart-count">0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Elevate Your Living Space</h1>
+            <p class="hero-subtitle">Discover timeless pieces for comfortable, elegant living</p>
+            <button class="btn btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">
+                Explore Collection
+            </button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card" data-category="tableware">
+                    <div class="category-icon">🍽️</div>
+                    <h3>Tableware</h3>
+                    <p>Elegant dining essentials</p>
+                </div>
+                <div class="category-card" data-category="kitchen">
+                    <div class="category-icon">🍳</div>
+                    <h3>Kitchen Sets</h3>
+                    <p>Complete cooking solutions</p>
+                </div>
+                <div class="category-card" data-category="mugs">
+                    <div class="category-icon">☕</div>
+                    <h3>Coffee Mugs</h3>
+                    <p>Morning rituals refined</p>
+                </div>
+                <div class="category-card" data-category="linens">
+                    <div class="category-icon">🛏️</div>
+                    <h3>Bed Linens</h3>
+                    <p>Luxurious comfort</p>
+                </div>
+                <div class="category-card" data-category="duvets">
+                    <div class="category-icon">🌙</div>
+                    <h3>Duvets</h3>
+                    <p>Cozy nights await</p>
+                </div>
+                <div class="category-card" data-category="towels">
+                    <div class="category-icon">🧖</div>
+                    <h3>Towels</h3>
+                    <p>Spa-quality softness</p>
+                </div>
+                <div class="category-card" data-category="candles">
+                    <div class="category-icon">🕯️</div>
+                    <h3>Candles</h3>
+                    <p>Ambient fragrances</p>
+                </div>
+                <div class="category-card" data-category="decor">
+                    <div class="category-icon">🏠</div>
+                    <h3>Home Décor</h3>
+                    <p>Finishing touches</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="products-header">
+                <h2 class="section-title">Featured Products</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="tableware">Tableware</button>
+                    <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+                    <button class="filter-btn" data-filter="mugs">Mugs</button>
+                    <button class="filter-btn" data-filter="linens">Linens</button>
+                    <button class="filter-btn" data-filter="duvets">Duvets</button>
+                    <button class="filter-btn" data-filter="towels">Towels</button>
+                    <button class="filter-btn" data-filter="candles">Candles</button>
+                    <button class="filter-btn" data-filter="decor">Décor</button>
+                </div>
+            </div>
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Casalucca</h2>
+                    <p>At Casalucca, we believe that a home is more than just a place—it's a reflection of who you are. Our carefully curated collection of home & lifestyle products brings together timeless design, exceptional quality, and everyday comfort.</p>
+                    <p>From the dining table to the bedroom, every piece is selected to enhance your living experience and create spaces you'll love coming home to.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature">
+                        <div class="feature-icon">✓</div>
+                        <h3>Premium Quality</h3>
+                        <p>Carefully selected materials</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">✓</div>
+                        <h3>Timeless Design</h3>
+                        <p>Classic meets contemporary</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">✓</div>
+                        <h3>Fast Shipping</h3>
+                        <p>Delivered to your door</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>📧 hello@casalucca.com</p>
+                    <p>📞 +1 (555) 123-4567</p>
+                    <p>📍 123 Design Street, NY 10001</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">CASALUCCA</h3>
+                    <p>Elevating everyday living with timeless design and exceptional quality.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Shop</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Shipping Information</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Casalucca. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart" aria-label="Close cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <p class="empty-cart">Your cart is empty</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total">$0.00</span>
+            </div>
+            <button class="btn btn-primary btn-block">Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
