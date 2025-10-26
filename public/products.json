@@ -1,0 +1,26 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "title": "Bilim Seti 1",
+        "description": "Çocuklar için başlangıç seviyesinde bilim seti.",
+        "image": "/cat.jpg",
+        "videoUrl": "https://www.youtube.com/embed/exampleVideoId1"
+      },
+      {
+        "id": "2",
+        "title": "Teknoloji Seti 2",
+        "description": "STEM becerilerini geliştirmek için teknoloji seti.",
+        "image": "/cat.jpg",
+        "videoUrl": "https://www.youtube.com/embed/exampleVideoId2"
+      },
+      {
+        "id": "3",
+        "title": "Yaratıcılık Seti 3",
+        "description": "Çocukların yaratıcılık becerilerini geliştiren set.",
+        "image": "/cat.jpg",
+        "videoUrl": "https://www.youtube.com/embed/exampleVideoId3"
+      }
+    ]
+  }
+  

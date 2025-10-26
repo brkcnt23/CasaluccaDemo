@@ -1,0 +1,128 @@
+title: METAMENTE - Geleceğin Bilim ve Teknoloji Çözümleri
+description: METAMENTE, çocuklar için bilim ve teknoloji temalı eğitim setleri sunan bir platformdur. Geleceğin inovasyon liderlerini yetiştirmeyi hedefliyoruz.
+hero:
+  title: Çocuklar İçin Bilim ve Teknoloji
+  description: METAMENTE'nin eğitim setleriyle çocuklar, bilim ve teknoloji dünyasını keşfederken eğlenerek öğreniyorlar.
+  headline:
+    label: METAMENTE Eğitim Setleri
+    to: '#features'
+    icon: i-ic-baseline-science  # Bilim ikonu
+  links:
+    - label: Keşfet
+      icon: i-carbon-arrow-right  # Ok ikonu
+      trailing: true
+      to: '#features'
+      size: xl
+    - label: Hemen Satın Al
+      icon: i-fluent-cart-24-filled  # Alışveriş ikonu
+      size: xl
+      color: gray
+      to: '#pricing'
+      target: _self
+logos:
+  title: Güvendiğimiz İş Ortakları
+  icons:
+    - i-material-symbols-school-rounded # Eğitimle ilgili bir ikon
+    - i-carbon-laptop # Teknoloji ile ilgili bir ikon
+    - i-fluent-lightbulb-20-filled # İnovasyon (yenilik) ile ilgili bir ikon
+features:
+  headline: Özellikler
+  title: Neden METAMENTE'yi Tercih Etmelisiniz?
+  description: Çocuklarınızın öğrenirken eğlenmesini ve bilim dünyasını keşfetmesini sağlamak için en iyi çözümleri sunuyoruz.
+  items:
+    - title: Öğrenme Odaklı
+      description: Çocuklarınızın bilim, teknoloji, mühendislik ve matematik (STEM) alanlarında gelişmelerine katkı sağlıyoruz.
+      icon: i-mdi-book-education  # Eğitim ikonu
+    - title: Yaratıcılığı Destekleyen
+      description: Proje odaklı setlerimizle çocuklar, kendi projelerini oluşturma ve geliştirme yeteneklerini keşfediyor.
+      icon: i-carbon-idea  # Fikir ikonu
+    - title: Güvenli ve Kaliteli
+      description: Tüm ürünlerimiz güvenli, çevre dostu malzemelerden üretilmiştir ve çocuklarınız için uygundur.
+      icon: i-carbon-3d-cursor  # Kalkan ikonu
+    - title: İnteraktif ve Eğlenceli
+      description: Etkileşimli deneyimler, çocukların öğrenmeye olan ilgisini artırır ve bilimsel keşiflere yönlendirir.
+      icon: i-fluent-sparkle-20-filled  # Parıltı ikonu
+    - title: Ekolojik Bilinç
+      description: Doğa temalı setlerimiz, çocuklara çevre duyarlılığı kazandırmayı hedefler.
+      icon: i-fluent-leaf-two-20-filled  # Yaprak ikonu
+    - title: Geleceğe Hazırlık
+      description: Çocuklarınız, geleceğin teknolojik sorunlarına yenilikçi çözümler geliştirmeyi öğreniyor.
+      icon: i-fluent-rocket-20-filled  # Roket ikonu
+products:
+  headline: Ürünlerimiz
+  title: Çocuklar İçin Bilim ve Teknoloji Ürünleri
+  description: Çocuklarınızın bilim ve teknoloji dünyasını keşfetmesini sağlayacak ürünlerimizle tanışın.
+  items:
+    - title: Bilim Seti 1
+      description: Çocuklar için başlangıç seviyesinde bilim seti.
+      image: '/public/logo.svg'
+      button:
+        label: Hemen Satın Al
+        to: '#purchase'
+    - title: Teknoloji Seti 2
+      description: STEM becerilerini geliştirmek için teknoloji seti.
+      image: '/images/tech-set-2.jpg'
+      button:
+        label: İncele
+        to: '#details'
+    - title: Yaratıcılık Seti 3
+      description: Çocukların yaratıcılık becerilerini geliştiren set.
+      image: '/images/creativity-set-3.jpg'
+      button:
+        label: Hemen Al
+        to: '#purchase'
+
+services:
+  headline: Müşteri Yorumları
+  title: Müşterilerimizin Yorumları
+  description: METAMENTE ürünleri ile ilgili müşterilerimizin görüşlerini keşfedin.
+  items:
+    - quote: "METAMENTE eğitim setleri, çocuğumun bilim ve teknolojiye olan ilgisini artırdı. Harika bir deneyim!"
+      author:
+        name: Ayşe Yılmaz
+        description: Anne
+        avatar:
+          src: https://i.pravatar.cc/120?img=1
+          loading: lazy
+    - quote: "Çocuğumun STEM becerilerini geliştiren bu setler gerçekten mükemmel!"
+      author:
+        name: Mehmet Demir
+        description: Baba
+        avatar:
+          src: https://i.pravatar.cc/120?img=7
+          loading: lazy
+    - quote: "Çocuklarım bu setlerle hem eğleniyor hem de yeni şeyler öğreniyorlar."
+      author:
+        name: Zeynep Kaya
+        description: Anne
+        avatar:
+          src: https://i.pravatar.cc/120?img=3
+          loading: lazy
+    - quote: "Proje temelli yaklaşımları sayesinde çocuğumun yaratıcılığı arttı."
+      author:
+        name: Ali Korkmaz
+        description: Baba
+        avatar:
+          src: https://i.pravatar.cc/120?img=5
+          loading: lazy
+cta:
+  title: Bugün Başlayın
+  description: METAMENTE ile çocuğunuzun bilim ve teknoloji dünyasında adım atmasına yardımcı olun.
+  links:
+    - label: Hemen Üye Ol
+      size: xl
+faq:
+  title: Sıkça Sorulan Sorular
+  description: METAMENTE hakkında sıkça sorulan soruların cevaplarını keşfedin.
+  items:
+    - label: Deney setleri neler içerir?
+      content: Deney setlerimiz, genellikle ahşap ve plastik parçalardan oluşur. İçeriğe bağlı olarak, farklı modeller ve projeler oluşturmak için gerekli tüm bileşenleri içerebilirler. Ayrıca, talimatlar ve bazen ek malzemeler de bulunabilir.
+      defaultOpen: true
+    - label: Bu ürünler çocuklar için hangi yaş aralığına uygun?
+      content: Deney setlerimiz, genellikle farklı yaş gruplarına yönelik varyasyonlar sunar. Bu nedenle, çocukların yaşlarına ve beceri seviyelerine uygun olanları seçmek önemlidir. Genellikle 6 yaş ve üzeri çocuklar için uygundur.
+    - label: Ürünlerin kullanımı ve montajı kolay mıdır?
+      content: Evet, ürünlerimizin kullanımı ve montajı genellikle basittir. Talimatlarla birlikte gelirler ve çocukların kolayca anlayabileceği şekilde tasarlanır. Ayrıca, çocukların kendi başlarına projeleri yapmalarına veya aileleri ile birlikte çalışmalarına olanak tanır.
+    - label: Ürünlerin eğitim değeri nedir? Çocuklarım hangi becerileri geliştirebilirler?
+      content: Ürünlerimizin eğitim değeri oldukça yüksektir. Çocuklar, bu deney setleri ile bilimsel düşünme, problem çözme, el becerileri, takım çalışması ve yaratıcılık gibi birçok önemli beceriyi geliştirebilirler. Ayrıca, fen bilimleri ve mühendislik alanlarına ilgi duymalarını teşvik ederler.
+    - label: Ürünlerinizin güvenliği ve malzeme kalitesi hakkında bilgi verebilir misiniz?
+      content: Ürünlerimizin tasarımı, güvenliği ve malzeme kalitesi önceliklidir. Genellikle toksik olmayan, dayanıklı malzemeler kullanırız ve ulusal güvenlik standartlarına uyarız. Ayrıca, ürünlerimizin çocuklar için güvenli ve eğlenceli olmasını sağlamak için sürekli olarak kalite kontrolü yaparız.
